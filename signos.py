@@ -1,6 +1,6 @@
-mes = input("Escribir el mes de nacimiento: ")
+#Hacer un programa que pida el día y mes de cumpleaños e indique cuál es su signo del Zodiaco.
 dia = int(input("Escribir el día de nacimiento: "))
-
+mes = input("Escribir el mes de nacimiento: ")
 
 if (mes=="marzo" or mes=="abril"):
     if (dia>=1 and dia<=21):
